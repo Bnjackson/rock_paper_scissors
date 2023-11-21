@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+/*
+GENERAL STYLES
+*/
+
+/*
+TYPOGRAPHY
+*/
+* {
+    font-family: 'Rubik', sans-serif;;
+    color: rgb(236, 239, 244);
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+/*
+BACKGROUND COLOURS
+*/
+html {
+    background-color: rgb(36, 41, 51);
+}
+
+header {
+   background-color: rgb(46, 52, 64);
+
+}
+
+/*
+HEADER
+*/
+header {
+    margin: 0 auto;
+    padding: 2.5%;
+}
+
+.header-wrapper {
+    text-align: center;
+}
+
+/*
+GAMEBOARD
+*/
+
+/*
+USER BUTTONS
+*/
+
+/*
+END SCREEN
+*/
+
+/*
+FOOTER
+*/
