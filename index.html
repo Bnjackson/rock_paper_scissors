@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>rock_paper_scissors</title>
+        <title>Rock Paper Scissors</title>
         <meta charset="UTF-8">
         <meta name="author" content="Benjamin Jackson">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,13 +11,47 @@
     </head>
     <body>
         <header>
-
+            <div class="header-wrapper">
+                <h1>Rock Paper Scissors</h1>
+            </div>
         </header>
         <main>
-
+            <div class="gameboard">
+                <h2 class="gameboard-title">Make your choice: Rock, Paper, or Scissors</h2>
+                <p class="gameboard-message">First to 5 points wins the games</p>
+                <div class="players-choices">
+                    <div class="user-choice">
+                        <img src="./resources/images/question-mark.svg" alt="Users choice">
+                        <p class="player-score">Player: 0</p>
+                    </div>
+                    <div class="computer-choice">
+                        <img src="./resources/images/question-mark.svg" alt="Computers Choice">
+                        <p class="computer-score">Computer: 0</p>
+                    </div>
+                </div>
+            </div>
+            <div class="user-buttons">
+                <div class="buttons-container">
+                    <div class="button">
+                        <img src="./resources/images/rock.svg" alt="Rock">
+                    </div>
+                    <div class="button">
+                        <img src="./resources/images/paper.svg" alt="Paper">
+                    </div>
+                    <div class="button">
+                        <img src="./resources/images/scissors.svg" alt="Scissors">
+                    </div>
+                </div>
+            </div>
         </main>
+        <div class="end-screen">
+            <div class="end-screen-container">
+                <p class="message"></p>
+                <button>Play Again</button>
+            </div>
+        </div>
         <footer>
-
+            <p>2023 <a href="https://github.com/Bnjackson">Benjamin Jackson</a></p>
         </footer>
     </body>
 </html>
