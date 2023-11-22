@@ -2,6 +2,10 @@
 /*
 GENERAL STYLES
 */
+main {
+    width: 60%;
+    margin: 0 auto;
+}
 
 /*
 TYPOGRAPHY
@@ -12,7 +16,8 @@ TYPOGRAPHY
 }
 
 h1 {
-
+    font-size: 40px;
+    letter-spacing: 2.5px;
 }
 
 h2 {
@@ -32,6 +37,16 @@ header {
 }
 
 /*
+IMAGES
+*/
+.choice-image {
+    width: 100%;
+    padding: 20%;
+    border: 1px solid rgb(236, 239, 244);
+    margin: 5%;
+}
+
+/*
 HEADER
 */
 header {
@@ -46,6 +61,30 @@ header {
 /*
 GAMEBOARD
 */
+.gameboard {
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.gameboard-title {
+    padding: 5% 0 1% 0;
+}
+
+.gameboard-message {
+    padding-bottom: 5%;
+}
+
+.players-choices {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.user-choice, .computer-choice {
+    width: 30%;
+}
+
 
 /*
 USER BUTTONS
