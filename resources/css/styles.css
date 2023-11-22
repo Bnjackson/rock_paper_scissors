@@ -20,8 +20,16 @@ h1 {
     letter-spacing: 2.5px;
 }
 
-h2 {
+.gameboard-title {
+    font-size: 28px;
+}
 
+.gameboard-message {
+    font-size: 18px;
+}
+
+.score {
+    font-size: 20px;
 }
 
 /*
@@ -40,12 +48,17 @@ header {
 IMAGES
 */
 .choice-image {
-    width: 100%;
+    width: 90%;
     padding: 20%;
     border: 1px solid rgb(236, 239, 244);
+    border-radius: 10px;
     margin: 5%;
 }
 
+.button img {
+    margin: 0 auto;
+    padding: 20%;
+}
 /*
 HEADER
 */
@@ -67,11 +80,11 @@ GAMEBOARD
 }
 
 .gameboard-title {
-    padding: 5% 0 1% 0;
+    padding: 4% 0 1% 0;
 }
 
 .gameboard-message {
-    padding-bottom: 5%;
+    padding-bottom: 3%;
 }
 
 .players-choices {
@@ -85,10 +98,32 @@ GAMEBOARD
     width: 30%;
 }
 
-
 /*
 USER BUTTONS
 */
+.user-buttons {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.buttons-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.button {
+    width: 25%;
+    height: 25%;
+    border-radius: 10px;
+    background-color: #5E81AC;
+}
+
+.button :hover {
+    background-color: #81A1C1;
+    border-radius: 10px;
+    cursor: pointer;
+}
 
 /*
 END SCREEN
