@@ -32,6 +32,9 @@ h1 {
     font-size: 20px;
 }
 
+footer p {
+    font-size: 20px;
+}
 /*
 BACKGROUND COLOURS
 */
@@ -128,7 +131,48 @@ USER BUTTONS
 /*
 END SCREEN
 */
+.end-screen {
+    width: 60%;
+    height: 505px;
+    margin: 0 auto;
+    display: none;
+}
+
+.end-screen-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.end-message {
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+.end-screen-container button {
+    width: 60%;
+    height: 60px;
+    background-color: #5E81AC;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+}
+
+.end-screen-container button:hover {
+    background-color: #81A1C1;
+    cursor: pointer;
+}
 
 /*
 FOOTER
 */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
