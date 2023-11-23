@@ -7,7 +7,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./resources/css/reset.css">
         <link rel="stylesheet" href="./resources/css/styles.css">
-        <script src="./main.js"></script>
     </head>
     <body>
         <header>
@@ -15,43 +14,46 @@
                 <h1>Rock Paper Scissors</h1>
             </div>
         </header>
-        <main>
+        <main id="main-content">
             <div class="gameboard">
-                <h2 class="gameboard-title">Make your choice: Rock, Paper, or Scissors</h2>
-                <p class="gameboard-message">First to 5 points wins the games</p>
+                <h2 id ="gameboard-title" class="gameboard-title">Make your choice: Rock, Paper, or Scissors</h2>
+                <p id="gameboard-message" class="gameboard-message">First to 5 points wins the games</p>
                 <div class="players-choices">
                     <div class="user-choice">
-                        <img src="./resources/images/question-mark.svg" alt="Users choice">
-                        <p class="player-score">Player: 0</p>
+                        <img class="choice-image" id="users-image" src="./resources/images/question-mark.svg" alt="Users choice: Rock, Paper, or Scissors">
+                        <p id="players-score" class="score">Player: 0</p>
                     </div>
                     <div class="computer-choice">
-                        <img src="./resources/images/question-mark.svg" alt="Computers Choice">
-                        <p class="computer-score">Computer: 0</p>
+                        <img class="choice-image" id="computers-image" src="./resources/images/question-mark.svg" alt="Computers choice; Rock, Paper, or Scissors">
+                        <p id="computers-score" class="score">Computer: 0</p>
                     </div>
                 </div>
             </div>
             <div class="user-buttons">
                 <div class="buttons-container">
-                    <div class="button">
+                    <div id="rock-button" class="button">
                         <img src="./resources/images/rock.svg" alt="Rock">
                     </div>
-                    <div class="button">
+                    <div id="paper-button" class="button">
                         <img src="./resources/images/paper.svg" alt="Paper">
                     </div>
-                    <div class="button">
+                    <div id="scissors-button" class="button">
                         <img src="./resources/images/scissors.svg" alt="Scissors">
                     </div>
                 </div>
             </div>
         </main>
-        <div class="end-screen">
+        <div id="end-screen" class="end-screen">
             <div class="end-screen-container">
-                <p class="message"></p>
-                <button>Play Again</button>
+                <div>
+                    <p id="end-screen-message" class="end-message">Test Message</p>
+                    <button id ="play-again-button">Play Again</button>
+                </div>
             </div>
         </div>
         <footer>
             <p>2023 <a href="https://github.com/Bnjackson">Benjamin Jackson</a></p>
         </footer>
     </body>
+    <script src="./main.js"></script>
 </html>
